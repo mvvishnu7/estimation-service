@@ -1,0 +1,14 @@
+com:
+  sellics:
+    coding-challenge:
+      amazon-auto-completion:
+        searchAlias: "aps"
+        client: "amazon-search-ui"
+        mkt: 1
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 2000
+        readTimeout: 2000
